@@ -1,0 +1,25 @@
+.MainMatchingTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.MainMatchingTable th, .MainMatchingTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.MainMatchingTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.MainMatchingTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.MainMatchingTable tr:hover {
+    background-color: #ddd;
+}
